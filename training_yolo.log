@@ -1,0 +1,22 @@
+2025-09-23 16:53:19,186 - INFO - CUDA is available. Using GPU.
+2025-09-23 16:53:19,186 - INFO - Loading pre-trained model: yolov8m.pt
+2025-09-23 16:54:29,314 - INFO - Starting YOLOv8 training...
+2025-09-23 16:54:29,314 - INFO -   - Model: yolov8m.pt
+2025-09-23 16:54:29,314 - INFO -   - Data Config: data.yaml
+2025-09-23 16:54:29,314 - INFO -   - Epochs: 50
+2025-09-23 16:54:29,314 - INFO -   - Batch Size: 32
+2025-09-23 16:54:29,314 - INFO -   - Learning Rate: 0.001
+2025-09-23 16:54:29,985 - ERROR - An error occurred during training: Dataset 'data.yaml' error  
+Dataset 'data.yaml' images not found , missing path 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets\dataset\images\Validation'
+Note dataset download directory is 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets'. You can update this in 'C:\Users\Student\AppData\Roaming\Ultralytics\settings.yaml'
+2025-09-23 16:59:21,781 - INFO - CUDA is available. Using GPU.
+2025-09-23 16:59:21,781 - INFO - Loading pre-trained model: yolov8m.pt
+2025-09-23 16:59:21,950 - INFO - Starting YOLOv8 training...
+2025-09-23 16:59:21,950 - INFO -   - Model: yolov8m.pt
+2025-09-23 16:59:21,951 - INFO -   - Data Config: data.yaml
+2025-09-23 16:59:21,951 - INFO -   - Epochs: 50
+2025-09-23 16:59:21,951 - INFO -   - Batch Size: 32
+2025-09-23 16:59:21,951 - INFO -   - Learning Rate: 0.001
+2025-09-23 16:59:22,666 - ERROR - An error occurred during training: Dataset 'data.yaml' error  
+Dataset 'data.yaml' images not found , missing path 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets\dataset\images\Validation\crocodile'
+Note dataset download directory is 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets'. You can update this in 'C:\Users\Student\AppData\Roaming\Ultralytics\settings.yaml'
