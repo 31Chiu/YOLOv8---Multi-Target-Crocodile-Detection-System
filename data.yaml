@@ -1,8 +1,8 @@
 # Dataset configuration file
 
 # Paths to training and validation data (relative to data.yaml file)
-train: ./dataset/images/Training
-val: ./dataset/images/Validation
+train: ../dataset/images/Training/crocodile
+val: ../dataset/images/Validation/crocodile
 
 # Number of classes
 nc: 1
