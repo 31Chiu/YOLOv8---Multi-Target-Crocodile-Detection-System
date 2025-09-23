@@ -101,11 +101,11 @@ def main():
         return
 
     # 2. Define image and label folder paths
-    train_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Training')
-    val_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Validation')
+    train_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Training', 'crocodile')
+    val_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Validation', 'crocodile')
 
-    train_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Training')
-    val_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Validation')
+    train_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Training', 'crocodile')
+    val_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Validation', 'crocodile')
 
     # 3. Process the training and validation sets separately
     annotate_directory(train_images_dir, train_labels_dir, model)
