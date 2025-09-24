@@ -20,3 +20,13 @@ Note dataset download directory is 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO
 2025-09-23 16:59:22,666 - ERROR - An error occurred during training: Dataset 'data.yaml' error  
 Dataset 'data.yaml' images not found , missing path 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets\dataset\images\Validation\crocodile'
 Note dataset download directory is 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO Series\YOLOv8---Multi-Target-Crocodile-Detection-System\datasets'. You can update this in 'C:\Users\Student\AppData\Roaming\Ultralytics\settings.yaml'
+2025-09-23 17:35:20,824 - INFO - CUDA is available. Using GPU.
+2025-09-23 17:35:20,825 - INFO - Loading pre-trained model: yolov8m.pt
+2025-09-23 17:35:36,343 - INFO - Starting YOLOv8 training...
+2025-09-23 17:35:36,344 - INFO -   - Model: yolov8m.pt
+2025-09-23 17:35:36,344 - INFO -   - Data Config: data.yaml
+2025-09-23 17:35:36,344 - INFO -   - Epochs: 50
+2025-09-23 17:35:36,344 - INFO -   - Batch Size: 32
+2025-09-23 17:35:36,344 - INFO -   - Learning Rate: 0.001
+2025-09-23 20:43:57,984 - INFO - Training complete.
+2025-09-23 20:43:57,984 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
