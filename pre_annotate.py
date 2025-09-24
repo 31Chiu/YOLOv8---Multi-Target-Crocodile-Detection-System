@@ -67,6 +67,9 @@ def annotate_directory(image_dir, label_dir, model):
     for img_path in image_paths:
         # Read the image to get its dimensions
         img = cv2.imread(img_path)
+        if img is None:
+            logging.warning(f"Could not read image, skipping: {img_path}")
+            continue
         img_height, img_width, _ = img.shape
 
         # Use the model for prediction
@@ -88,6 +91,30 @@ def annotate_directory(image_dir, label_dir, model):
 
     logging.info(f"Finished processing directory: {image_dir}")
 
+def process_base_directory(base_image_dir, base_label_dir, model):
+    """
+    Scans a base directory (e.g., 'images/Training') for subdirectories and processes each one.
+    If no subdirectories are found, it processes the images in the base directory itself.
+    """
+    if not os.path.isdir(base_image_dir):
+        logging.warning(f"Base image directory not found, skipping: {base_image_dir}")
+        return
+
+    # Find all subdirectories within the base image directory
+    sub_dirs = [d for d in os.listdir(base_image_dir) if os.path.isdir(os.path.join(base_image_dir, d))]
+
+    if not sub_dirs:
+        # If no subdirectories exist, process the base directory itself.
+        logging.info(f"No subdirectories found in '{base_image_dir}'. Processing images directly from this folder.")
+        annotate_directory(base_image_dir, base_label_dir, model)
+    else:
+        # If subdirectories exist, loop through each one and process it.
+        logging.info(f"Found subdirectories in '{base_image_dir}': {sub_dirs}. Processing each one.")
+        for sub_dir in sub_dirs:
+            image_dir = os.path.join(base_image_dir, sub_dir)
+            label_dir = os.path.join(base_label_dir, sub_dir)
+            annotate_directory(image_dir, label_dir, model)
+
 def main():
     """Main function to load the model and start the annotation process."""
     logging.info("Starting the automated pre-annotation process...")
@@ -100,16 +127,16 @@ def main():
         logging.error(f"Failed to load model: {e}")
         return
 
-    # 2. Define image and label folder paths
-    train_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Training', 'crocodile')
-    val_images_dir = os.path.join(DATASET_BASE_DIR, 'images/Validation', 'crocodile')
+    # 2. Define the base directories for images and labels
+    train_images_base_dir = os.path.join(DATASET_BASE_DIR, 'images/Training')
+    val_images_base_dir = os.path.join(DATASET_BASE_DIR, 'images/Validation')
+    
+    train_labels_base_dir = os.path.join(DATASET_BASE_DIR, 'labels/Training')
+    val_labels_base_dir = os.path.join(DATASET_BASE_DIR, 'labels/Validation')
 
-    train_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Training', 'crocodile')
-    val_labels_dir = os.path.join(DATASET_BASE_DIR, 'labels/Validation', 'crocodile')
-
-    # 3. Process the training and validation sets separately
-    annotate_directory(train_images_dir, train_labels_dir, model)
-    annotate_directory(val_images_dir, val_labels_dir, model)
+    # 3. Process both the entire Training and Validation directories automatically
+    process_base_directory(train_images_base_dir, train_labels_base_dir, model)
+    process_base_directory(val_images_base_dir, val_labels_base_dir, model)
     
     logging.info("Automated pre-annotation process completed!")
     logging.warning("Important: Be sure to manually check and correct all generated .txt annotation files!")
