@@ -37,8 +37,9 @@ class YOLOv8FeatureExtractor(nn.Module):
         yolo_model = YOLO(model_name)
         
         # Extract the backbone
-        # yolo_model.model.model is a sequential module containing all layers before the detection heads
-        self.feature_extractor = yolo_model.model.model
+        # We only use the first 10 layers (the backbone ending with SPPF).
+        # This avoids the complex, non-sequential neck architecture that caused the error.
+        self.feature_extractor = nn.Sequential(*list(yolo_model.model.model.children())[:10])
         self.feature_extractor.to(self.device)
         self.feature_extractor.eval() # Must be set to evaluation mode to disable layers like Dropout
 
@@ -46,28 +47,22 @@ class YOLOv8FeatureExtractor(nn.Module):
         self.pool = nn.AdaptiveAvgPool2d((1, 1))
 
     def forward(self, x):
-        """
-        Forward pass function.
-        Input: x (torch.Tensor) - A batch of images with shape (B, C, H, W)
-        Output: torch.Tensor - Feature vectors with shape (B, feature_dim)
-        """
+        """Defines the forward pass."""
+        # Move input data to the correct device (CPU or GPU)
         x = x.to(self.device)
         
         # Execute in a no-gradient context to save memory and computation
         with torch.no_grad():
-            # Get the list of feature maps from the backbone
-            # YOLOv8 outputs feature maps at multiple scales; we choose the last one
-            # as it contains the highest-level semantic information.
+            # 1. Extract feature maps directly with the backbone
             feature_maps = self.feature_extractor(x)
-            last_feature_map = feature_maps[-1]
             
-            # Apply Global Average Pooling, which turns a HxW feature map into 1x1
-            pooled_features = self.pool(last_feature_map)
+            # 2. Apply the pooling layer to the complete feature maps
+            features = self.pool(feature_maps)
             
-            # Flatten the features into a 2D tensor of shape (B, C)
-            flattened_features = torch.flatten(pooled_features, 1)
+            # 3. Flatten the feature vector to a shape of (batch_size, channels)
+            features = torch.flatten(features, 1)
             
-        return flattened_features
+        return features
 
 # --- 3. Data Loading and Feature Extraction Helper Functions ---
 def get_dataloader(data_dir, batch_size=32):
@@ -105,8 +100,8 @@ def main():
     
     # Define dataset paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    train_dir = os.path.join(base_dir, './dataset/Training')
-    val_dir = os.path.join(base_dir, './dataset/Validation')
+    train_dir = os.path.join(base_dir, './dataset/images/Training')
+    val_dir = os.path.join(base_dir, './dataset/images/Validation')
 
     # Step 1: Initialize the feature extractor
     feature_extractor = YOLOv8FeatureExtractor(model_name='yolov8m.pt')
