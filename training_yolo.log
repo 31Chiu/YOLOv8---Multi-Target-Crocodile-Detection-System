@@ -30,3 +30,63 @@ Note dataset download directory is 'C:\Users\Student\Desktop\Chiu Siew Chin\YOLO
 2025-09-23 17:35:36,344 - INFO -   - Learning Rate: 0.001
 2025-09-23 20:43:57,984 - INFO - Training complete.
 2025-09-23 20:43:57,984 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
+2025-09-24 12:25:35,861 - INFO - CUDA is available. Using GPU.
+2025-09-24 12:25:35,861 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 12:31:24,131 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 12:32:05,076 - INFO - CUDA is available. Using GPU.
+2025-09-24 12:32:05,076 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 12:38:12,436 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 12:40:33,358 - INFO - CUDA is available. Using GPU.
+2025-09-24 12:40:33,358 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 12:46:55,291 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 12:47:23,542 - INFO - CUDA is available. Using GPU.
+2025-09-24 12:47:23,542 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 12:47:23,745 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 12:47:35,916 - INFO - CUDA is available. Using GPU.
+2025-09-24 12:47:35,916 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 12:53:37,295 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 16:11:24,328 - INFO - CUDA is available. Using GPU.
+2025-09-24 16:11:24,328 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 16:11:24,564 - ERROR - An error occurred during training: PytorchStreamReader failed reading zip archive: failed finding central directory
+2025-09-24 16:11:49,927 - INFO - CUDA is available. Using GPU.
+2025-09-24 16:11:49,927 - INFO - Loading model with weights: yolov8m.pt
+2025-09-24 16:15:31,033 - INFO - Starting YOLOv8 training...
+2025-09-24 16:15:31,033 - INFO -   - Model: yolov8m.pt
+2025-09-24 16:15:31,033 - INFO -   - Data Config: data.yaml
+2025-09-24 16:15:31,033 - INFO -   - Epochs: 50
+2025-09-24 16:15:31,033 - INFO -   - Batch Size: 32
+2025-09-25 00:44:49,979 - INFO - Training complete.
+2025-09-25 00:44:49,979 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
+2025-09-25 00:44:49,979 - INFO - --------------------------------------------------
+2025-09-25 00:44:49,979 - INFO - Starting evaluation of the best model...
+2025-09-25 00:44:49,979 - INFO - Loading best model from: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-25 00:44:49,979 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-25 00:45:57,568 - INFO - Evaluation complete.
+2025-09-25 00:45:57,568 - INFO - --------------------------------------------------
+2025-09-25 00:45:57,568 - INFO - Performance Metrics of the Best Model:
+2025-09-25 00:45:57,568 - INFO -   - mAP50-95 (primary metric): 0.5914
+2025-09-25 00:45:57,568 - INFO -   - mAP50: 0.7348
+2025-09-25 00:45:57,568 - INFO -   - Precision: 0.7809
+2025-09-25 00:45:57,568 - INFO -   - Recall: 0.6508
+2025-09-25 00:45:57,568 - INFO - --------------------------------------------------
+2025-09-25 00:50:04,332 - INFO - CUDA is available. Using GPU.
+2025-09-25 00:50:04,332 - INFO - Loading model with weights: yolov8m.pt
+2025-09-25 00:50:04,493 - INFO - Starting YOLOv8 training...
+2025-09-25 00:50:04,493 - INFO -   - Model: yolov8m.pt
+2025-09-25 00:50:04,493 - INFO -   - Data Config: data.yaml
+2025-09-25 00:50:04,493 - INFO -   - Epochs: 50
+2025-09-25 00:50:04,493 - INFO -   - Batch Size: 32
+2025-09-25 09:06:32,914 - INFO - Training complete.
+2025-09-25 09:06:32,933 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
+2025-09-25 09:06:32,933 - INFO - --------------------------------------------------
+2025-09-25 09:06:32,933 - INFO - Starting evaluation of the best model...
+2025-09-25 09:06:32,933 - INFO - Loading best model from: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-25 09:06:32,933 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-25 09:07:44,194 - INFO - Evaluation complete.
+2025-09-25 09:07:44,194 - INFO - --------------------------------------------------
+2025-09-25 09:07:44,194 - INFO - Performance Metrics of the Best Model:
+2025-09-25 09:07:44,206 - INFO -   - mAP50-95 (primary metric): 0.5914
+2025-09-25 09:07:44,206 - INFO -   - mAP50: 0.7348
+2025-09-25 09:07:44,206 - INFO -   - Precision: 0.7809
+2025-09-25 09:07:44,206 - INFO -   - Recall: 0.6508
+2025-09-25 09:07:44,206 - INFO - --------------------------------------------------
