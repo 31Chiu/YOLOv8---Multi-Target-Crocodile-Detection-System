@@ -38,8 +38,9 @@ class YOLOv8FeatureExtractor(nn.Module):
         yolo_model = YOLO(model_name)
         
         # Extract the backbone
-        # yolo_model.model.model is a sequential module containing all layers before the detection heads
-        self.feature_extractor = yolo_model.model.model
+        # We only use the first 10 layers (the backbone ending with SPPF).
+        # This avoids the complex, non-sequential neck architecture that caused the error.
+        self.feature_extractor = nn.Sequential(*list(yolo_model.model.model.children())[:10])
         self.feature_extractor.to(self.device)
         self.feature_extractor.eval() # Must be set to evaluation mode to disable layers like Dropout
 
@@ -106,8 +107,8 @@ def main():
     
     # Define dataset paths
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    train_dir = os.path.join(base_dir, './dataset/Training')
-    val_dir = os.path.join(base_dir, './dataset/Validation')
+    train_dir = os.path.join(base_dir, './dataset/images/Training')
+    val_dir = os.path.join(base_dir, './dataset/images/Validation')
 
     # Step 1: Initialize the feature extractor
     feature_extractor = YOLOv8FeatureExtractor(model_name='yolov8m.pt')
