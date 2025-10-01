@@ -1,0 +1,42 @@
+2025-09-29 15:13:03,379 - INFO - CUDA is available. Using GPU.
+2025-09-29 15:13:03,379 - INFO - Loading model with weights: yolov8m.pt
+2025-09-29 15:13:38,447 - INFO - Starting YOLOv8 training...
+2025-09-29 15:13:38,447 - INFO -   - Model: yolov8m.pt
+2025-09-29 15:13:38,447 - INFO -   - Data Config: data.yaml
+2025-09-29 15:13:38,447 - INFO -   - Epochs: 50
+2025-09-29 15:13:38,447 - INFO -   - Batch Size: 32
+2025-09-29 23:41:54,400 - INFO - Training complete.
+2025-09-29 23:41:54,400 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
+2025-09-29 23:41:54,400 - INFO - --------------------------------------------------
+2025-09-29 23:41:54,400 - INFO - Starting evaluation of the best model...
+2025-09-29 23:41:54,400 - INFO - Loading best model from: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-29 23:41:54,400 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-29 23:42:55,584 - INFO - Evaluation complete.
+2025-09-29 23:42:55,584 - INFO - --------------------------------------------------
+2025-09-29 23:42:55,584 - INFO - Performance Metrics of the Best Model:
+2025-09-29 23:42:55,584 - INFO -   - mAP50-95 (primary metric): 0.5836
+2025-09-29 23:42:55,584 - INFO -   - mAP50: 0.7274
+2025-09-29 23:42:55,584 - INFO -   - Precision: 0.7653
+2025-09-29 23:42:55,584 - INFO -   - Recall: 0.6594
+2025-09-29 23:42:55,584 - INFO - --------------------------------------------------
+2025-09-30 10:41:03,153 - INFO - CUDA is available. Using GPU.
+2025-09-30 10:41:03,153 - INFO - Loading model with weights: yolov8m.pt
+2025-09-30 10:41:03,368 - INFO - Starting YOLOv8 training...
+2025-09-30 10:41:03,368 - INFO -   - Model: yolov8m.pt
+2025-09-30 10:41:03,368 - INFO -   - Data Config: data.yaml
+2025-09-30 10:41:03,368 - INFO -   - Epochs: 50
+2025-09-30 10:41:03,368 - INFO -   - Batch Size: 32
+2025-09-30 18:53:00,765 - INFO - Training complete.
+2025-09-30 18:53:00,765 - INFO - Results saved to: My_YOLOv8_Runs\crocodile_detection_yolov8m
+2025-09-30 18:53:00,765 - INFO - --------------------------------------------------
+2025-09-30 18:53:00,765 - INFO - Starting evaluation of the best model...
+2025-09-30 18:53:00,765 - INFO - Loading best model from: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-30 18:53:00,765 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2025-09-30 18:54:02,800 - INFO - Evaluation complete.
+2025-09-30 18:54:02,800 - INFO - --------------------------------------------------
+2025-09-30 18:54:02,800 - INFO - Performance Metrics of the Best Model:
+2025-09-30 18:54:02,800 - INFO -   - mAP50-95 (primary metric): 0.5836
+2025-09-30 18:54:02,800 - INFO -   - mAP50: 0.7274
+2025-09-30 18:54:02,800 - INFO -   - Precision: 0.7653
+2025-09-30 18:54:02,800 - INFO -   - Recall: 0.6594
+2025-09-30 18:54:02,800 - INFO - --------------------------------------------------
