@@ -1,0 +1,124 @@
+2026-03-09 16:31:14,817 - INFO - CUDA is available. Using GPU.
+2026-03-09 16:31:14,817 - INFO - Loading model with weights: yolov8m.pt
+2026-03-09 16:31:14,969 - INFO - Starting YOLOv8 training with strict data augmentation and custom logging...
+2026-03-09 16:40:21,524 - INFO - Epoch 01/50 [LR: 0.002000] | Train -> Box Loss: 1.5673 Cls Loss: 1.7846 | Val -> Prec: 0.0523 Rec: 0.3204 mAP50: 0.0274
+2026-03-09 16:53:09,861 - INFO - Epoch 02/50 [LR: 0.001960] | Train -> Box Loss: 1.6150 Cls Loss: 1.8334 | Val -> Prec: 0.4340 Rec: 0.3932 mAP50: 0.2648
+2026-03-09 17:00:12,289 - INFO - Epoch 03/50 [LR: 0.001921] | Train -> Box Loss: 1.5049 Cls Loss: 1.7347 | Val -> Prec: 0.2555 Rec: 0.3468 mAP50: 0.1846
+2026-03-09 17:09:15,832 - INFO - Epoch 04/50 [LR: 0.001881] | Train -> Box Loss: 1.4623 Cls Loss: 1.6563 | Val -> Prec: 0.4587 Rec: 0.3400 mAP50: 0.3159
+2026-03-09 17:16:29,405 - INFO - Epoch 05/50 [LR: 0.001842] | Train -> Box Loss: 1.4136 Cls Loss: 1.6024 | Val -> Prec: 0.5646 Rec: 0.4292 mAP50: 0.3973
+2026-03-09 17:25:37,382 - INFO - Epoch 06/50 [LR: 0.001802] | Train -> Box Loss: 1.3659 Cls Loss: 1.5122 | Val -> Prec: 0.5838 Rec: 0.4597 mAP50: 0.4686
+2026-03-09 17:33:52,058 - INFO - Epoch 07/50 [LR: 0.001762] | Train -> Box Loss: 1.3219 Cls Loss: 1.4592 | Val -> Prec: 0.5872 Rec: 0.4634 mAP50: 0.4519
+2026-03-09 17:44:29,659 - INFO - Epoch 08/50 [LR: 0.001723] | Train -> Box Loss: 1.2968 Cls Loss: 1.4267 | Val -> Prec: 0.5073 Rec: 0.4244 mAP50: 0.4400
+2026-03-09 17:53:06,098 - INFO - Epoch 09/50 [LR: 0.001683] | Train -> Box Loss: 1.2583 Cls Loss: 1.3856 | Val -> Prec: 0.6199 Rec: 0.5088 mAP50: 0.5172
+2026-03-09 18:03:04,506 - INFO - Epoch 10/50 [LR: 0.001644] | Train -> Box Loss: 1.2537 Cls Loss: 1.3379 | Val -> Prec: 0.6645 Rec: 0.4990 mAP50: 0.5330
+2026-03-09 18:10:47,383 - INFO - Epoch 11/50 [LR: 0.001604] | Train -> Box Loss: 1.2129 Cls Loss: 1.3201 | Val -> Prec: 0.5944 Rec: 0.4928 mAP50: 0.4850
+2026-03-09 18:20:40,336 - INFO - Epoch 12/50 [LR: 0.001564] | Train -> Box Loss: 1.2118 Cls Loss: 1.3129 | Val -> Prec: 0.6332 Rec: 0.5080 mAP50: 0.5357
+2026-03-09 18:28:26,056 - INFO - Epoch 13/50 [LR: 0.001525] | Train -> Box Loss: 1.1893 Cls Loss: 1.2679 | Val -> Prec: 0.6604 Rec: 0.5229 mAP50: 0.5597
+2026-03-09 18:38:10,711 - INFO - Epoch 14/50 [LR: 0.001485] | Train -> Box Loss: 1.1843 Cls Loss: 1.2619 | Val -> Prec: 0.6300 Rec: 0.5441 mAP50: 0.5701
+2026-03-09 18:45:41,431 - INFO - Epoch 15/50 [LR: 0.001446] | Train -> Box Loss: 1.1576 Cls Loss: 1.2462 | Val -> Prec: 0.6293 Rec: 0.5132 mAP50: 0.5597
+2026-03-09 18:55:11,875 - INFO - Epoch 16/50 [LR: 0.001406] | Train -> Box Loss: 1.1391 Cls Loss: 1.2066 | Val -> Prec: 0.6885 Rec: 0.5538 mAP50: 0.6115
+2026-03-09 19:02:46,806 - INFO - Epoch 17/50 [LR: 0.001366] | Train -> Box Loss: 1.1367 Cls Loss: 1.2047 | Val -> Prec: 0.6798 Rec: 0.5369 mAP50: 0.5705
+2026-03-09 19:13:05,996 - INFO - Epoch 18/50 [LR: 0.001327] | Train -> Box Loss: 1.1267 Cls Loss: 1.1822 | Val -> Prec: 0.7192 Rec: 0.5550 mAP50: 0.6250
+2026-03-09 19:22:03,040 - INFO - Epoch 19/50 [LR: 0.001287] | Train -> Box Loss: 1.1205 Cls Loss: 1.1844 | Val -> Prec: 0.6753 Rec: 0.5797 mAP50: 0.6269
+2026-03-09 19:31:31,441 - INFO - Epoch 20/50 [LR: 0.001248] | Train -> Box Loss: 1.1102 Cls Loss: 1.1633 | Val -> Prec: 0.7134 Rec: 0.5467 mAP50: 0.6294
+2026-03-09 19:38:59,221 - INFO - Epoch 21/50 [LR: 0.001208] | Train -> Box Loss: 1.0966 Cls Loss: 1.1420 | Val -> Prec: 0.7139 Rec: 0.5823 mAP50: 0.6396
+2026-03-09 19:48:57,304 - INFO - Epoch 22/50 [LR: 0.001168] | Train -> Box Loss: 1.0896 Cls Loss: 1.1358 | Val -> Prec: 0.6946 Rec: 0.5693 mAP50: 0.6256
+2026-03-09 19:56:32,769 - INFO - Epoch 23/50 [LR: 0.001129] | Train -> Box Loss: 1.0601 Cls Loss: 1.1255 | Val -> Prec: 0.6980 Rec: 0.5689 mAP50: 0.6294
+2026-03-09 20:06:28,966 - INFO - Epoch 24/50 [LR: 0.001089] | Train -> Box Loss: 1.0729 Cls Loss: 1.1014 | Val -> Prec: 0.6952 Rec: 0.5704 mAP50: 0.6348
+2026-03-09 20:14:30,171 - INFO - Epoch 25/50 [LR: 0.001050] | Train -> Box Loss: 1.0663 Cls Loss: 1.1100 | Val -> Prec: 0.7255 Rec: 0.5753 mAP50: 0.6159
+2026-03-09 20:25:26,069 - INFO - Epoch 26/50 [LR: 0.001010] | Train -> Box Loss: 1.0592 Cls Loss: 1.0847 | Val -> Prec: 0.6833 Rec: 0.5916 mAP50: 0.6400
+2026-03-09 20:33:48,633 - INFO - Epoch 27/50 [LR: 0.000970] | Train -> Box Loss: 1.0299 Cls Loss: 1.0717 | Val -> Prec: 0.7089 Rec: 0.5921 mAP50: 0.6579
+2026-03-09 20:45:51,471 - INFO - Epoch 28/50 [LR: 0.000931] | Train -> Box Loss: 1.0345 Cls Loss: 1.0646 | Val -> Prec: 0.7079 Rec: 0.5985 mAP50: 0.6629
+2026-03-09 20:53:19,094 - INFO - Epoch 29/50 [LR: 0.000891] | Train -> Box Loss: 1.0169 Cls Loss: 1.0458 | Val -> Prec: 0.7592 Rec: 0.5787 mAP50: 0.6503
+2026-03-09 21:03:08,098 - INFO - Epoch 30/50 [LR: 0.000852] | Train -> Box Loss: 1.0060 Cls Loss: 1.0401 | Val -> Prec: 0.7250 Rec: 0.6045 mAP50: 0.6637
+2026-03-09 21:11:36,940 - INFO - Epoch 31/50 [LR: 0.000812] | Train -> Box Loss: 0.9918 Cls Loss: 1.0190 | Val -> Prec: 0.7300 Rec: 0.5986 mAP50: 0.6712
+2026-03-09 21:22:36,889 - INFO - Epoch 32/50 [LR: 0.000772] | Train -> Box Loss: 1.0037 Cls Loss: 1.0283 | Val -> Prec: 0.7237 Rec: 0.6143 mAP50: 0.6649
+2026-03-09 21:30:30,425 - INFO - Epoch 33/50 [LR: 0.000733] | Train -> Box Loss: 0.9818 Cls Loss: 1.0005 | Val -> Prec: 0.7262 Rec: 0.5738 mAP50: 0.6592
+2026-03-09 21:42:03,562 - INFO - Epoch 34/50 [LR: 0.000693] | Train -> Box Loss: 0.9775 Cls Loss: 0.9804 | Val -> Prec: 0.7200 Rec: 0.6218 mAP50: 0.6772
+2026-03-09 21:50:03,682 - INFO - Epoch 35/50 [LR: 0.000654] | Train -> Box Loss: 0.9616 Cls Loss: 0.9784 | Val -> Prec: 0.7339 Rec: 0.6107 mAP50: 0.6791
+2026-03-09 22:01:38,529 - INFO - Epoch 36/50 [LR: 0.000614] | Train -> Box Loss: 0.9579 Cls Loss: 0.9725 | Val -> Prec: 0.7670 Rec: 0.6060 mAP50: 0.6851
+2026-03-09 22:09:50,044 - INFO - Epoch 37/50 [LR: 0.000574] | Train -> Box Loss: 0.9454 Cls Loss: 0.9614 | Val -> Prec: 0.7082 Rec: 0.6293 mAP50: 0.6862
+2026-03-09 22:20:33,814 - INFO - Epoch 38/50 [LR: 0.000535] | Train -> Box Loss: 0.9432 Cls Loss: 0.9527 | Val -> Prec: 0.7474 Rec: 0.6243 mAP50: 0.6847
+2026-03-09 22:28:19,697 - INFO - Epoch 39/50 [LR: 0.000495] | Train -> Box Loss: 0.9160 Cls Loss: 0.9250 | Val -> Prec: 0.7477 Rec: 0.6236 mAP50: 0.6924
+2026-03-09 22:37:52,415 - INFO - Epoch 40/50 [LR: 0.000456] | Train -> Box Loss: 0.9197 Cls Loss: 0.9319 | Val -> Prec: 0.7379 Rec: 0.6256 mAP50: 0.6865
+2026-03-09 22:46:06,379 - INFO - Epoch 41/50 [LR: 0.000416] | Train -> Box Loss: 0.7475 Cls Loss: 0.7503 | Val -> Prec: 0.7173 Rec: 0.5932 mAP50: 0.6635
+2026-03-09 22:56:40,932 - INFO - Epoch 42/50 [LR: 0.000376] | Train -> Box Loss: 0.7175 Cls Loss: 0.6955 | Val -> Prec: 0.7411 Rec: 0.6130 mAP50: 0.6878
+2026-03-09 23:04:15,909 - INFO - Epoch 43/50 [LR: 0.000337] | Train -> Box Loss: 0.7104 Cls Loss: 0.6811 | Val -> Prec: 0.7334 Rec: 0.6166 mAP50: 0.6838
+2026-03-09 23:13:41,138 - INFO - Epoch 44/50 [LR: 0.000297] | Train -> Box Loss: 0.6941 Cls Loss: 0.6754 | Val -> Prec: 0.7501 Rec: 0.6188 mAP50: 0.6912
+2026-03-09 23:21:18,953 - INFO - Epoch 45/50 [LR: 0.000258] | Train -> Box Loss: 0.6767 Cls Loss: 0.6378 | Val -> Prec: 0.7567 Rec: 0.6187 mAP50: 0.6917
+2026-03-09 23:32:21,815 - INFO - Epoch 46/50 [LR: 0.000218] | Train -> Box Loss: 0.6536 Cls Loss: 0.6331 | Val -> Prec: 0.7618 Rec: 0.6207 mAP50: 0.7006
+2026-03-09 23:39:45,157 - INFO - Epoch 47/50 [LR: 0.000178] | Train -> Box Loss: 0.6399 Cls Loss: 0.6059 | Val -> Prec: 0.7797 Rec: 0.6128 mAP50: 0.7014
+2026-03-09 23:49:23,814 - INFO - Epoch 48/50 [LR: 0.000139] | Train -> Box Loss: 0.6249 Cls Loss: 0.5877 | Val -> Prec: 0.7627 Rec: 0.6203 mAP50: 0.6976
+2026-03-09 23:57:23,193 - INFO - Epoch 49/50 [LR: 0.000099] | Train -> Box Loss: 0.6137 Cls Loss: 0.5760 | Val -> Prec: 0.7458 Rec: 0.6117 mAP50: 0.6918
+2026-03-10 00:06:47,976 - INFO - Epoch 50/50 [LR: 0.000060] | Train -> Box Loss: 0.6037 Cls Loss: 0.5639 | Val -> Prec: 0.7708 Rec: 0.6143 mAP50: 0.6948
+2026-03-10 00:07:18,221 - INFO - Epoch 50/50 [LR: 0.000060] | Train -> Box Loss: 0.6037 Cls Loss: 0.5639 | Val -> Prec: 0.7787 Rec: 0.6138 mAP50: 0.7005
+2026-03-10 00:07:18,887 - INFO - Training complete.
+2026-03-10 00:07:18,887 - INFO - --------------------------------------------------
+2026-03-10 00:07:18,887 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2026-03-10 00:08:24,614 - INFO -   - mAP50-95 (primary metric): 0.5281
+2026-03-10 00:08:24,614 - INFO -   - mAP50: 0.7011
+2026-03-10 00:08:24,614 - INFO -   - Precision: 0.7780
+2026-03-10 00:08:24,614 - INFO -   - Recall: 0.6140
+2026-03-10 00:08:24,614 - INFO - --------------------------------------------------
+2026-03-10 01:05:08,022 - INFO - CUDA is available. Using GPU.
+2026-03-10 01:05:08,022 - INFO - Loading model with weights: yolov8m.pt
+2026-03-10 01:05:08,196 - INFO - Starting YOLOv8 training with strict data augmentation and custom logging...
+2026-03-10 01:11:41,714 - INFO - Epoch 01/50 [LR: 0.002000] | Train -> Box Loss: 1.5673 Cls Loss: 1.7846 | Val -> Prec: 0.0523 Rec: 0.3204 mAP50: 0.0274
+2026-03-10 01:23:07,012 - INFO - Epoch 02/50 [LR: 0.001960] | Train -> Box Loss: 1.6150 Cls Loss: 1.8334 | Val -> Prec: 0.4340 Rec: 0.3932 mAP50: 0.2648
+2026-03-10 01:29:38,930 - INFO - Epoch 03/50 [LR: 0.001921] | Train -> Box Loss: 1.5049 Cls Loss: 1.7347 | Val -> Prec: 0.2555 Rec: 0.3468 mAP50: 0.1846
+2026-03-10 01:38:13,326 - INFO - Epoch 04/50 [LR: 0.001881] | Train -> Box Loss: 1.4623 Cls Loss: 1.6563 | Val -> Prec: 0.4587 Rec: 0.3400 mAP50: 0.3159
+2026-03-10 01:45:10,321 - INFO - Epoch 05/50 [LR: 0.001842] | Train -> Box Loss: 1.4136 Cls Loss: 1.6024 | Val -> Prec: 0.5646 Rec: 0.4292 mAP50: 0.3973
+2026-03-10 01:53:07,567 - INFO - Epoch 06/50 [LR: 0.001802] | Train -> Box Loss: 1.3659 Cls Loss: 1.5122 | Val -> Prec: 0.5838 Rec: 0.4597 mAP50: 0.4686
+2026-03-10 02:00:07,950 - INFO - Epoch 07/50 [LR: 0.001762] | Train -> Box Loss: 1.3219 Cls Loss: 1.4592 | Val -> Prec: 0.5872 Rec: 0.4634 mAP50: 0.4519
+2026-03-10 02:09:47,000 - INFO - Epoch 08/50 [LR: 0.001723] | Train -> Box Loss: 1.2968 Cls Loss: 1.4267 | Val -> Prec: 0.5073 Rec: 0.4244 mAP50: 0.4400
+2026-03-10 02:17:31,941 - INFO - Epoch 09/50 [LR: 0.001683] | Train -> Box Loss: 1.2583 Cls Loss: 1.3856 | Val -> Prec: 0.6199 Rec: 0.5088 mAP50: 0.5172
+2026-03-10 02:26:52,117 - INFO - Epoch 10/50 [LR: 0.001644] | Train -> Box Loss: 1.2537 Cls Loss: 1.3379 | Val -> Prec: 0.6645 Rec: 0.4990 mAP50: 0.5330
+2026-03-10 02:33:55,706 - INFO - Epoch 11/50 [LR: 0.001604] | Train -> Box Loss: 1.2129 Cls Loss: 1.3201 | Val -> Prec: 0.5944 Rec: 0.4928 mAP50: 0.4850
+2026-03-10 02:42:26,666 - INFO - Epoch 12/50 [LR: 0.001564] | Train -> Box Loss: 1.2118 Cls Loss: 1.3129 | Val -> Prec: 0.6332 Rec: 0.5080 mAP50: 0.5357
+2026-03-10 02:49:41,415 - INFO - Epoch 13/50 [LR: 0.001525] | Train -> Box Loss: 1.1893 Cls Loss: 1.2679 | Val -> Prec: 0.6604 Rec: 0.5229 mAP50: 0.5597
+2026-03-10 02:59:21,086 - INFO - Epoch 14/50 [LR: 0.001485] | Train -> Box Loss: 1.1843 Cls Loss: 1.2619 | Val -> Prec: 0.6300 Rec: 0.5441 mAP50: 0.5701
+2026-03-10 03:06:50,868 - INFO - Epoch 15/50 [LR: 0.001446] | Train -> Box Loss: 1.1576 Cls Loss: 1.2462 | Val -> Prec: 0.6293 Rec: 0.5132 mAP50: 0.5597
+2026-03-10 03:15:56,803 - INFO - Epoch 16/50 [LR: 0.001406] | Train -> Box Loss: 1.1391 Cls Loss: 1.2066 | Val -> Prec: 0.6885 Rec: 0.5538 mAP50: 0.6115
+2026-03-10 03:23:31,781 - INFO - Epoch 17/50 [LR: 0.001366] | Train -> Box Loss: 1.1367 Cls Loss: 1.2047 | Val -> Prec: 0.6798 Rec: 0.5369 mAP50: 0.5705
+2026-03-10 03:33:24,957 - INFO - Epoch 18/50 [LR: 0.001327] | Train -> Box Loss: 1.1267 Cls Loss: 1.1822 | Val -> Prec: 0.7192 Rec: 0.5550 mAP50: 0.6250
+2026-03-10 03:41:51,274 - INFO - Epoch 19/50 [LR: 0.001287] | Train -> Box Loss: 1.1205 Cls Loss: 1.1844 | Val -> Prec: 0.6753 Rec: 0.5797 mAP50: 0.6269
+2026-03-10 03:50:59,772 - INFO - Epoch 20/50 [LR: 0.001248] | Train -> Box Loss: 1.1102 Cls Loss: 1.1633 | Val -> Prec: 0.7134 Rec: 0.5467 mAP50: 0.6294
+2026-03-10 03:58:21,398 - INFO - Epoch 21/50 [LR: 0.001208] | Train -> Box Loss: 1.0966 Cls Loss: 1.1420 | Val -> Prec: 0.7139 Rec: 0.5823 mAP50: 0.6396
+2026-03-10 04:07:51,685 - INFO - Epoch 22/50 [LR: 0.001168] | Train -> Box Loss: 1.0896 Cls Loss: 1.1358 | Val -> Prec: 0.6946 Rec: 0.5693 mAP50: 0.6256
+2026-03-10 04:15:30,588 - INFO - Epoch 23/50 [LR: 0.001129] | Train -> Box Loss: 1.0601 Cls Loss: 1.1255 | Val -> Prec: 0.6980 Rec: 0.5689 mAP50: 0.6294
+2026-03-10 04:25:26,900 - INFO - Epoch 24/50 [LR: 0.001089] | Train -> Box Loss: 1.0729 Cls Loss: 1.1014 | Val -> Prec: 0.6952 Rec: 0.5704 mAP50: 0.6348
+2026-03-10 04:33:20,597 - INFO - Epoch 25/50 [LR: 0.001050] | Train -> Box Loss: 1.0663 Cls Loss: 1.1100 | Val -> Prec: 0.7255 Rec: 0.5753 mAP50: 0.6159
+2026-03-10 04:44:28,234 - INFO - Epoch 26/50 [LR: 0.001010] | Train -> Box Loss: 1.0592 Cls Loss: 1.0847 | Val -> Prec: 0.6833 Rec: 0.5916 mAP50: 0.6400
+2026-03-10 04:52:46,948 - INFO - Epoch 27/50 [LR: 0.000970] | Train -> Box Loss: 1.0299 Cls Loss: 1.0717 | Val -> Prec: 0.7089 Rec: 0.5921 mAP50: 0.6579
+2026-03-10 05:03:43,301 - INFO - Epoch 28/50 [LR: 0.000931] | Train -> Box Loss: 1.0345 Cls Loss: 1.0646 | Val -> Prec: 0.7079 Rec: 0.5985 mAP50: 0.6629
+2026-03-10 05:11:01,808 - INFO - Epoch 29/50 [LR: 0.000891] | Train -> Box Loss: 1.0169 Cls Loss: 1.0458 | Val -> Prec: 0.7592 Rec: 0.5787 mAP50: 0.6503
+2026-03-10 05:19:45,993 - INFO - Epoch 30/50 [LR: 0.000852] | Train -> Box Loss: 1.0060 Cls Loss: 1.0401 | Val -> Prec: 0.7250 Rec: 0.6045 mAP50: 0.6637
+2026-03-10 05:27:50,265 - INFO - Epoch 31/50 [LR: 0.000812] | Train -> Box Loss: 0.9918 Cls Loss: 1.0190 | Val -> Prec: 0.7300 Rec: 0.5986 mAP50: 0.6712
+2026-03-10 05:38:01,131 - INFO - Epoch 32/50 [LR: 0.000772] | Train -> Box Loss: 1.0037 Cls Loss: 1.0283 | Val -> Prec: 0.7237 Rec: 0.6143 mAP50: 0.6649
+2026-03-10 05:46:16,891 - INFO - Epoch 33/50 [LR: 0.000733] | Train -> Box Loss: 0.9818 Cls Loss: 1.0005 | Val -> Prec: 0.7262 Rec: 0.5738 mAP50: 0.6592
+2026-03-10 05:57:15,395 - INFO - Epoch 34/50 [LR: 0.000693] | Train -> Box Loss: 0.9775 Cls Loss: 0.9804 | Val -> Prec: 0.7200 Rec: 0.6218 mAP50: 0.6772
+2026-03-10 06:05:24,259 - INFO - Epoch 35/50 [LR: 0.000654] | Train -> Box Loss: 0.9616 Cls Loss: 0.9784 | Val -> Prec: 0.7339 Rec: 0.6107 mAP50: 0.6791
+2026-03-10 06:17:52,862 - INFO - Epoch 36/50 [LR: 0.000614] | Train -> Box Loss: 0.9579 Cls Loss: 0.9725 | Val -> Prec: 0.7670 Rec: 0.6060 mAP50: 0.6851
+2026-03-10 06:25:59,580 - INFO - Epoch 37/50 [LR: 0.000574] | Train -> Box Loss: 0.9454 Cls Loss: 0.9614 | Val -> Prec: 0.7082 Rec: 0.6293 mAP50: 0.6862
+2026-03-10 06:36:44,986 - INFO - Epoch 38/50 [LR: 0.000535] | Train -> Box Loss: 0.9432 Cls Loss: 0.9527 | Val -> Prec: 0.7474 Rec: 0.6243 mAP50: 0.6847
+2026-03-10 06:43:32,803 - INFO - Epoch 39/50 [LR: 0.000495] | Train -> Box Loss: 0.9160 Cls Loss: 0.9250 | Val -> Prec: 0.7477 Rec: 0.6236 mAP50: 0.6924
+2026-03-10 06:52:37,187 - INFO - Epoch 40/50 [LR: 0.000456] | Train -> Box Loss: 0.9197 Cls Loss: 0.9319 | Val -> Prec: 0.7379 Rec: 0.6256 mAP50: 0.6865
+2026-03-10 07:00:45,799 - INFO - Epoch 41/50 [LR: 0.000416] | Train -> Box Loss: 0.7475 Cls Loss: 0.7503 | Val -> Prec: 0.7173 Rec: 0.5932 mAP50: 0.6635
+2026-03-10 07:11:33,153 - INFO - Epoch 42/50 [LR: 0.000376] | Train -> Box Loss: 0.7175 Cls Loss: 0.6955 | Val -> Prec: 0.7411 Rec: 0.6130 mAP50: 0.6878
+2026-03-10 07:19:07,860 - INFO - Epoch 43/50 [LR: 0.000337] | Train -> Box Loss: 0.7104 Cls Loss: 0.6811 | Val -> Prec: 0.7334 Rec: 0.6166 mAP50: 0.6838
+2026-03-10 07:28:21,174 - INFO - Epoch 44/50 [LR: 0.000297] | Train -> Box Loss: 0.6941 Cls Loss: 0.6754 | Val -> Prec: 0.7501 Rec: 0.6188 mAP50: 0.6912
+2026-03-10 07:35:52,774 - INFO - Epoch 45/50 [LR: 0.000258] | Train -> Box Loss: 0.6767 Cls Loss: 0.6378 | Val -> Prec: 0.7567 Rec: 0.6187 mAP50: 0.6917
+2026-03-10 07:46:37,183 - INFO - Epoch 46/50 [LR: 0.000218] | Train -> Box Loss: 0.6536 Cls Loss: 0.6331 | Val -> Prec: 0.7618 Rec: 0.6207 mAP50: 0.7006
+2026-03-10 07:53:36,114 - INFO - Epoch 47/50 [LR: 0.000178] | Train -> Box Loss: 0.6399 Cls Loss: 0.6059 | Val -> Prec: 0.7797 Rec: 0.6128 mAP50: 0.7014
+2026-03-10 08:03:03,512 - INFO - Epoch 48/50 [LR: 0.000139] | Train -> Box Loss: 0.6249 Cls Loss: 0.5877 | Val -> Prec: 0.7627 Rec: 0.6203 mAP50: 0.6976
+2026-03-10 08:10:33,822 - INFO - Epoch 49/50 [LR: 0.000099] | Train -> Box Loss: 0.6137 Cls Loss: 0.5760 | Val -> Prec: 0.7458 Rec: 0.6117 mAP50: 0.6918
+2026-03-10 08:19:42,896 - INFO - Epoch 50/50 [LR: 0.000060] | Train -> Box Loss: 0.6037 Cls Loss: 0.5639 | Val -> Prec: 0.7708 Rec: 0.6143 mAP50: 0.6948
+2026-03-10 08:20:12,278 - INFO - Epoch 50/50 [LR: 0.000060] | Train -> Box Loss: 0.6037 Cls Loss: 0.5639 | Val -> Prec: 0.7787 Rec: 0.6138 mAP50: 0.7005
+2026-03-10 08:20:12,873 - INFO - Training complete.
+2026-03-10 08:20:12,873 - INFO - --------------------------------------------------
+2026-03-10 08:20:12,873 - INFO - Loading model with weights: My_YOLOv8_Runs\crocodile_detection_yolov8m\weights\best.pt
+2026-03-10 08:21:22,586 - INFO -   - mAP50-95 (primary metric): 0.5281
+2026-03-10 08:21:22,590 - INFO -   - mAP50: 0.7011
+2026-03-10 08:21:22,590 - INFO -   - Precision: 0.7780
+2026-03-10 08:21:22,590 - INFO -   - Recall: 0.6140
+2026-03-10 08:21:22,590 - INFO - --------------------------------------------------
